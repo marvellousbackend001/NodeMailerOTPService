@@ -1,0 +1,15 @@
+
+POST http://localhost:3000/otp/send
+Content-Type: application/json
+
+{
+  "email": "dloveade@gmail.com"
+}
+
+###
+POST http://localhost:3000/otp/verify
+Content-Type: application/json
+
+{
+  "otp": "831448"
+}
